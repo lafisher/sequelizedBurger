@@ -1,0 +1,114 @@
+html {
+ 	background-color: #a0c237;
+ }
+
+ body {
+ 	width: 75%;
+	margin: 0 auto; 
+
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #99bcf2;
+ }
+
+ #burgerfam {
+ 	display: block;
+    margin: auto;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	font-family: 'Fontdiner Swanky';
+ 	font-size: 65px;
+    color: #f31b26; 
+ 	margin: 50px;
+ }
+
+ .burgerAvailable {
+ 	font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	border-radius: 25px;
+ 	width: 50%;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #fcdc61;
+ 	border: none;
+ }
+
+ .burgerAvailable:hover {
+ 	background-color: #a0c237;
+ }
+
+ .burgerEaten {
+ 	font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	border-radius: 25px;
+    width: 50%; 
+ 	margin: 0 auto;
+ 	padding: 10px;
+ 	background-color: #f373a8;
+ }
+
+ h2 {
+  	text-align: center;
+ 	font-family: 'Fontdiner Swanky';
+ 	font-size: 40px;
+    color: #f31b26;
+ 	margin: 50px;
+ }
+
+ .formContainer {
+ 	background-color:white;
+ }
+
+ .addBurgerButton {
+ 	font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	border-radius: 25px;
+ 	width: 50%;
+ 	margin: 0 auto;
+ 	padding: 10px;
+ 	background-color: #fcdc61;
+ 	border: none;
+ }
+
+.addBurgerButton:active {
+	background-color: #FFC04C;
+}
+
+.burgerFooter {
+	background-color: #a0c237;
+	padding: 20px 0;
+	font-family: 'Fontdiner Swanky';
+	font-weight: 100;	
+}
+
+#eatMe {
+    font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px; 
+ 	text-align: center;
+
+}
+
+#eaten {
+    font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px; 
+ 	text-align: center;
+
+}
+
+#name {
+    background-color: white;
+}
