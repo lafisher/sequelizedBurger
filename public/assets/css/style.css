@@ -50,7 +50,7 @@ html {
  	text-align: center;
 
  	border-radius: 25px;
-    width: 50%; 
+    width: 75%; 
  	margin: 0 auto;
  	padding: 10px;
  	background-color: #f373a8;
@@ -111,4 +111,12 @@ html {
 
 #name {
     background-color: white;
+}
+
+#customerName {
+    font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px; 
+ 	text-align: center;
+
 }
